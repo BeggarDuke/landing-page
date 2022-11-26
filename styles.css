@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-1 {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 0 20px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imagebar {
+    display: flex;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 20px 20%;
+}
+
+.quotes-footer {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-4 button {
+    align-self: center;
+    /* flex: 0 0 200px; */
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
