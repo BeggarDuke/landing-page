@@ -5,6 +5,17 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+button {
+    background-color: #3882f6;
+    width: max-content;
+    height: max-content;
+    border-style: hidden;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+
 .section-1 {
     background-color: #1f2937;
     display: flex;
@@ -24,12 +35,18 @@ ul {
     gap: 0 20px;
 }
 
+.body {
+    display: flex;
+    padding-bottom: 20px;
+}
+
 .section-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin: 20px 20%;
+    padding-bottom: 20px;
 }
 
 .imagebar {
@@ -40,7 +57,7 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
-    padding: 20px 20%;
+    padding: 50px 20%;
 }
 
 .quotes-footer {
@@ -51,7 +68,17 @@ ul {
 .section-4 {
     display: flex;
     justify-content: center;
+    margin: 20px 10%;
+}
+
+.suggest {
+    display: flex;
     background-color: #3882f6;
+    width: 600px;
+    height: 100px;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .message {
@@ -59,9 +86,16 @@ ul {
     flex-direction: column;
 }
 
+.message h2 {
+    margin: 0;
+    padding: 0;
+}
+
 .section-4 button {
     align-self: center;
-    /* flex: 0 0 200px; */
+    border-style: outset;
+    border-color: #f9f2f8;
+    border-style: solid;
 }
 
 .footer {
