@@ -23,6 +23,11 @@ button {
     padding: 0 10%;
 }
 
+.section-1 h2 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -35,9 +40,25 @@ ul {
     gap: 0 20px;
 }
 
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
 .body {
     display: flex;
-    padding-bottom: 20px;
+    color: #e5e7eb;
+    gap: 50px;
+    padding: 60px 0 100px 0;
+}
+
+.body h1 {
+    color: #f9faf8;
+}
+
+.body-right img {
+    width: 400px;
+    height: auto;
 }
 
 .section-2 {
@@ -47,10 +68,35 @@ ul {
     align-items: center;
     margin: 20px 20%;
     padding-bottom: 20px;
+    gap: 30px;
+}
+
+.header-2 {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bold;
 }
 
 .imagebar {
     display: flex;
+    gap: 80px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image img {
+    width: 140px;
+    height: 140px;
+}
+
+.image p {
+    font-size: 18px;
+    color: #1f2937;
 }
 
 .section-3 {
@@ -58,17 +104,21 @@ ul {
     flex-direction: column;
     background-color: #e5e7eb;
     padding: 50px 20%;
+    font-size: 32px;
+    font-style: italic;
 }
 
 .quotes-footer {
     align-self: flex-end;
     font-weight: bold;
+    font-size: 26px;
+    font-style: initial;
 }
 
 .section-4 {
     display: flex;
     justify-content: center;
-    margin: 20px 10%;
+    margin: 80px 10%;
 }
 
 .suggest {
@@ -103,4 +153,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px 0;
+    color: #f9faf8;
 }
